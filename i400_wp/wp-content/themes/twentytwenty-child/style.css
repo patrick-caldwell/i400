@@ -24,3 +24,18 @@ article.post {
   border-radius: 40px;
   padding: 8rem 0 !important;
 }
+
+div#sidebar-primary {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
+
+.widget_search {
+  margin: 0;
+  margin-left: 2%;
+}
+
+.widget-title {
+  margin: 0 !important;
+}
