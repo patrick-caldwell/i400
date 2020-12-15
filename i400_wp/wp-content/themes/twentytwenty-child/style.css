@@ -29,6 +29,17 @@ article.post {
   padding: 8rem 0 !important;
 }
 
+.highlightBox {
+  background-color: #5a5f6d;
+  margin: 2%;
+  border-radius: 40px;
+  padding: 2rem !important;
+}
+
+.highlightBox p {
+  margin: 1rem;
+}
+
 .entry-header {
   background-color: #5a5f6d !important;
 }
