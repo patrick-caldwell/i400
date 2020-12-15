@@ -1,0 +1,84 @@
+/*
+Theme Name: Twenty Twenty Child
+Author: Patrick Caldwell
+Author URI: http://patrickdcaldwell.com/
+Template: twentytwenty
+Version: 1.0.0
+*/
+body {
+  background: #404552;
+}
+
+#site-content,
+.sidebar,
+#posts,
+.entry-title a,
+.post-meta,
+.post-separator,
+.comment-metadata,
+.logged-in-as,
+.entry-title,
+.meta-text a {
+  color: #fff !important;
+}
+
+article.post {
+  background-color: #5a5f6d;
+  margin: 2%;
+  border-radius: 40px;
+  padding: 8rem 0 !important;
+}
+
+.highlightBox {
+  background-color: #5a5f6d;
+  margin: 2%;
+  border-radius: 40px;
+  padding: 2rem !important;
+}
+
+.highlightBox p {
+  margin: 1rem;
+}
+
+.entry-header {
+  background-color: #5a5f6d !important;
+}
+
+div#sidebar-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 2%;
+  width: 20%;
+  /* position: fixed; */
+  right: 0%;
+  /* z-index: auto; */
+}
+
+.widget h3,
+.widget p {
+  text-align: right;
+}
+
+div#posts {
+  width: 80%;
+  /* margin-right: 24%; */
+}
+
+.widget_search {
+  margin: 0;
+  margin-left: 2%;
+}
+
+.widget-title {
+  margin: 0 !important;
+}
+
+.index-content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer-nav-widgets-wrapper {
+  z-index: 2;
+}
